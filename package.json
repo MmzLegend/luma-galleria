@@ -1,0 +1,18 @@
+{
+  "name": "luma-galleria-concept",
+  "version": "1.0.0",
+  "description": "Editable original mall architecture and local viewer",
+  "main": "index.js",
+  "scripts": {
+    "build": "python3 build_luma.py && node export_luma.mjs",
+    "start": "sh run.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "three": "^0.186.1"
+  },
+  "private": true
+}
